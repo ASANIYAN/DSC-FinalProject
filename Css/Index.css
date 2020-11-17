@@ -1,3 +1,12 @@
 h1  {
-    color: red;
+    color: #000000;
 }
+
+.link-top {
+    color: black !important;
+}
+
+a:hover {
+    color:  #228b22 !important;
+}
+
