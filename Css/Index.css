@@ -10,12 +10,7 @@ a:hover {
     color:  #228b22 !important;
 }
 
-@media (min-width: 200px) and (max-width: 576px)    {
-    #hero-section {
-      border-bottom-left-radius: 1000px;
-    }
 
-}
 
 
 
