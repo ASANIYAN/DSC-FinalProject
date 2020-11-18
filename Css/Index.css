@@ -10,25 +10,3 @@ a:hover {
     color:  #228b22 !important;
 }
 
-
-
-@media (min-width: 200px)   {
-    #hero-section   {
-        height: 60vh;
-    }
-
-}   
-    
-}
-
-@media (min-width: 992px)   {
-    #hero   {
-        margin-top: 10rem;
-    }
-
-    #hero-section   {
-        height: 70vh;
-    }
-
-}
-
