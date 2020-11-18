@@ -19,9 +19,9 @@ a:hover {
 
 }   
 
-@media (min-width: 200px) and (max-width: 576px)    {
+@media (min-width: 200px)     {
     #hero{
-        margin-top: 2rem;
+        margin-top: 5rem;
     }
 
     
