@@ -4,12 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
+    <link rel="stylesheet" href="Css/Index.css">
     <link rel="stylesheet" href="Css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-    <link rel="stylesheet" href="Css/Index.css">
+    
+
+    <style>
+        
+        .background   {
+            background-image: url(img/hero_bg.jpg);
+    
+        }
+
+        @media (min-width: 200px) and (max-width: 576px)    {
+          #hero-section {
+            border-bottom-left-radius: 100px;
+          }
+        }
+
+        @media (min-width: 577px) {
+          #hero-section {
+            border-bottom-left-radius: 50px;
+          }
+        }
+
+
+       
+          
+
+
+    </style>
+
 </head>
 <body>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: rgba(0, 0, 0, 0.5);">
+    <nav class="navbar fixed-top navbar-expand-md navbar-dark" style="background-color: rgba(255, 255, 255, 0.5);">
         <button class="navbar-toggler primary-btn" style="background: #228b22;" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <i class="fas fa-bars" style="font-size: 20px; color: #000000;"></i>
         </button>
@@ -20,10 +49,10 @@
               <a href="Index.html" class="nav-link link-top active">Home</a>
             </li>
             <li class="nav-item text-uppercase pl-lg-4">
-              <a class="nav-link link-top">About</a>
+              <a href="#" class="nav-link link-top">About</a>
             </li>
             <li class="nav-item text-uppercase pl-lg-4">
-              <a class="nav-link link-top">Event <span class="badge badge-danger">9</span></a>
+              <a class="nav-link link-top" href="#">Event <span class="badge badge-danger">9</span></a>
             </li>
             <li class="nav-item dropdown text-uppercase pl-lg-4">
               <a class="nav-link dropdown-toggle link-top" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -42,10 +71,27 @@
           </ul>
           <form class="form-inline pl-lg-4">
               <input class="form-control" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-dark text-white bg-dark ml-2" type="submit">SEARCH</button>
+              <button class="btn btn-outline-dark text-white bg-dark ml-lg-2" type="submit"><a>SEARCH</a></button>
           </form>
         </div>
     </nav>
+
+    <main class="page-content">
+        <section class="jumbotron jumbotron-fluid bg-transparent background" id="hero-section">
+            <div class="container">
+                <div class="row text-center">
+                    <div id="hero" class="col-12">
+                        <h1 class="h1 text-uppercase mb-auto text-white">Operation Save Nature</h1>
+                        <p class="mb-auto text-white">Sagittis, nisl turpis consecteur amet scelerisque facilis nibhMi</p> 
+                        <p class="text-white">consequat in etiam faucibus nec velit vel elerifend accu</p>
+                        <a href="#" class="btn btn-dark text-white">REGISTER</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
     
 
 
